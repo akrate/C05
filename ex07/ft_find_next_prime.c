@@ -6,7 +6,7 @@
 /*   By: aoussama <aoussama@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/15 10:47:28 by aoussama          #+#    #+#             */
-/*   Updated: 2024/09/15 11:20:12 by aoussama         ###   ########.fr       */
+/*   Updated: 2024/09/15 13:36:51 by aoussama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,4 +37,5 @@ int	ft_find_next_prime(int nb)
 			return (next);
 		next++;
 	}
+	return (0);
 }
